@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# YOLO model files
+*.pt
+*.onnx
+*.engine
+
+# Generated output files
+detections.xlsx
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
