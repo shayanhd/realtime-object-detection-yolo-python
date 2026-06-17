@@ -1,29 +1,27 @@
-# Python cache files
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
-venv/
 .venv/
+venv/
 env/
 
-# Environment variables
+# Environment files
 .env
 
-# YOLO model files
+# YOLO model weights - do not commit large model files
 *.pt
 *.onnx
 *.engine
 
-# Generated output files
-detections.xlsx
-*.log
+# Generated detection outputs
+*.xlsx
+!sample_outputs/*.xlsx
 
-# IDE files
+# IDE and OS files
 .vscode/
 .idea/
-
-# OS files
 .DS_Store
 Thumbs.db
