@@ -6,22 +6,22 @@ The application supports real-time webcam detection, image upload, bounding-box 
 
 ## Features
 
-* Real-time object detection from webcam
-* Image upload and object detection
-* Bounding boxes and confidence scores
-* Persian translation for detected object labels
-* Detection log export to Excel
-* Simple desktop interface using Tkinter
+- Real-time object detection from webcam
+- Image upload and object detection
+- Bounding boxes and confidence scores
+- Persian translation for detected object labels
+- Detection log export to Excel
+- Simple desktop interface using Tkinter
 
 ## Technologies Used
 
-* Python
-* Ultralytics YOLO
-* OpenCV
-* Tkinter
-* Pillow
-* Pandas
-* OpenPyXL
+- Python
+- Ultralytics YOLO
+- OpenCV
+- Tkinter
+- Pillow
+- Pandas
+- OpenPyXL
 
 ## Project Structure
 
@@ -30,8 +30,9 @@ realtime-object-detection-yolo-python/
 ├── main.py
 ├── requirements.txt
 ├── .gitignore
-├── LICENSE
-└── README.md
+├── README.md
+└── sample_outputs/
+    └── detections_sample.xlsx
 ```
 
 ## Installation
@@ -75,7 +76,7 @@ python main.py
 
 By default, the application uses `yolov8s.pt`. Ultralytics can download this model automatically on first run.
 
-You can also set a custom model path.
+You can also set a custom model path:
 
 Windows PowerShell:
 
@@ -96,26 +97,26 @@ Large YOLO weight files such as `.pt` files are intentionally not included in th
 
 Ignored examples:
 
-* `yolov8n.pt`
-* `yolov8s.pt`
-* `yolo11x.pt`
+- `yolov8n.pt`
+- `yolov8s.pt`
+- `yolo11x.pt`
 
 This keeps the repository lightweight and suitable for GitHub.
 
 ## Academic Context
 
-This project was developed as an applied AI and computer vision project by **Shayan Hadian**, a Computer Engineering undergraduate student focused on Software Engineering, Artificial Intelligence, and Data Science.
+This project was developed as an applied AI and computer vision project by **Shayan Hadian**, a Computer Engineering undergraduate student focused on Software Engineering, AI, and Data Science.
 
 ## Future Improvements
 
-* Add screenshot previews
-* Add object count statistics
-* Add CSV export
-* Add model selection inside the GUI
-* Improve UI responsiveness
+- Add screenshot previews
+- Add object count statistics
+- Add CSV export
+- Add model selection inside the GUI
+- Improve UI responsiveness
 
 ## Author
 
-**Shayan Hadian**
-Computer Engineering Undergraduate
+**Shayan Hadian**  
+Computer Engineering Undergraduate  
 GitHub: [shayanhd](https://github.com/shayanhd)
